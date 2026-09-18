@@ -1,5 +1,4 @@
 import json
-from urlimport json
 from urllib.parse import parse_qs, urlparse
 from http.server import HTTPServer, BaseHTTPRequestHandler
 
@@ -36,4 +35,4 @@ if __name__ == '__main__':
     httpd = HTTPServer(server_address, StreamBridgeHandler)
     print("خادم عبد الله الجسر يعمل على المنفذ 5050...")
     httpd.serve_forever()
-    lib.
+    
